@@ -5,6 +5,7 @@ import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
+import android.view.MotionEvent;
 
 import com.example.demo.R;
 
@@ -22,7 +23,7 @@ public class BaseActivity extends AppCompatActivity {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 
-    //菜单栏操作
+//菜单栏操作
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
